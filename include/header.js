@@ -1,0 +1,119 @@
+document.write(`
+
+
+   
+<div class="preloader ">
+<button class="th-btn preloaderCls">Cancel Preloader </button>
+<div class="preloader-inner">
+    <div class="loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+</div>
+
+<div class="popup-search-box d-none d-lg-block">
+<button class="searchClose"><i class="fal fa-times"></i></button>
+<form action="#">
+    <input type="text" placeholder="What are you looking for?">
+    <button type="submit"><i class="fal fa-search"></i></button>
+</form>
+</div><!--==============================
+Mobile Menu
+============================== -->
+<div class="th-menu-wrapper">
+<div class="th-menu-area text-center">
+    <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
+    <div class="mobile-logo">
+        <a href="index.html"><img src="assets/img/logo-tertiary-black.svg" alt="Rakar"></a>
+    </div>
+    <div class="th-mobile-menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Our Services</a></li>       
+            <li><a href="#">Project</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</div>
+</div><!--==============================
+Header Area
+==============================-->
+<header class="th-header header-layout5 ">
+<div class="header-top">
+    <div class="container">
+        <div class="row justify-content-center justify-content-lg-between align-items-center gy-2">
+            <div class="col-auto d-none d-lg-block">
+                <div class="header-links">
+                    <ul>
+                        <li><i class="fas fa-location-dot"></i> 45 New Eskaton Road, Austria</li>
+                        <li><i class="fas fa-clock"></i> Sun to Friday: 8.00 am - 7.00 pm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="header-links">
+                    <ul>
+                        <li class="d-none d-md-inline-block"><i class="fas fa-messages"></i> <a
+                                href="faq.html">FAQ</a></li>
+                        <li><i class="fas fa-headset"></i> <a href="contact.html">Support</a></li>
+                        <li><i class="fas fa-user"></i> <a href="contact.html">Sign In / Register</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="sticky-wrapper">
+    <!-- Main Menu Area -->
+    <div class="container">
+        <div class="menu-area">
+            <div class="row align-items-start justify-content-between">
+                <div class="col-auto d-none d-lg-block">
+                    <div class="header-logo">
+                        <a href="index.html"><img src="assets/img/logo-tertiary.svg" alt="Rakar"></a>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="menu-wrap">
+                        <div class="header-logo d-block d-lg-none">
+                            <a href="index.html"><img src="assets/img/logo-tertiary-black.svg"
+                                    alt="Rakar"></a>
+                        </div>
+                        <nav class="main-menu d-none d-lg-inline-block">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="#">Our Services</a> </li>
+                                <li><a href="#">Project</a></li>
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="#">Contact Us</a> </li>
+                            </ul>
+                        </nav>
+                        <button type="button" class="simple-icon searchBoxToggler d-none d-lg-inline-block"><i
+                                class="far fa-search"></i></button>
+                        <button type="button" class="th-menu-toggle d-block d-lg-none"><i
+                                class="far fa-bars"></i></button>
+                    </div>
+                </div>
+                <div class="col-auto d-none d-xl-block">
+                    <div class="header-button">
+                        <a href="contact.html" class="th-btn rounded-12 style3">Get A Quote<i
+                                class="fas fa-arrow-right ms-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</header>
+
+<!--==============================
+Hero Area
+==============================-->
+
+`);
