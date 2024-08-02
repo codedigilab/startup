@@ -34,10 +34,10 @@ Mobile Menu
     <div class="th-mobile-menu">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">Our Services</a></li>       
-            <li><a href="#">Project</a></li>
+            <li><a href="service.html">Our Services</a></li>       
+            <li><a href="project.html">Project</a></li>
             <li><a href="about.html">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
         </ul>
     </div>
 </div>
@@ -51,7 +51,7 @@ Header Area
             <div class="col-auto d-none d-lg-block">
                 <div class="header-links">
                     <ul>
-                        <li><i class="fas fa-location-dot"></i> 45 New Eskaton Road, Austria</li>
+                        <li><i class="fas fa-location-dot"></i> <script type="text/javascript"> document.write(address) </script></li>
                         <li><i class="fas fa-clock"></i> Sun to Friday: 8.00 am - 7.00 pm</li>
                     </ul>
                 </div>
@@ -88,10 +88,10 @@ Header Area
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
-                                <li><a href="#">Our Services</a> </li>
-                                <li><a href="#">Project</a></li>
+                                <li><a href="service.html">Our Services</a> </li>
+                                <li><a href="project.html">Project</a></li>
                                 <li><a href="about.html">About Us</a></li>
-                                <li><a href="#">Contact Us</a> </li>
+                                <li><a href="contact.html">Contact Us</a> </li>
                             </ul>
                         </nav>
                         <button type="button" class="simple-icon searchBoxToggler d-none d-lg-inline-block"><i
