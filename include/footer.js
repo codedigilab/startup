@@ -12,7 +12,7 @@ Footer Area
                         <i class="fas fa-location-dot"></i>
                     </div>
                     <div class="media-body">
-                        <p class="box-text text-white">789 Inner Lane, Holy park, California, USA</p>
+                        <p class="box-text text-white"><script type="text/javascript"> document.write(address) </script></p>
                     </div>
                 </div>
                 <div class="divider"></div>
@@ -22,7 +22,7 @@ Footer Area
                     </div>
                     <div class="media-body">
                         <h3 class="box-title text-white">Call Us:</h3>
-                        <p class="box-text text-white"><a href="tel:+09876543210">+09 876 543 210</a></p>
+                        <p class="box-text text-white"><a href="tel:+917079203070"><script type="text/javascript"> document.write(number2) </script></a></p>
                     </div>
                 </div>
                 <div class="divider"></div>
@@ -32,7 +32,7 @@ Footer Area
                     </div>
                     <div class="media-body">
                         <h3 class="box-title text-white">Email Us:</h3>
-                        <p class="box-text text-white"><a href="mailto:support24@rakar.com">support24@rakar.com</a>
+                        <p class="box-text text-white"><a href="mailto:c4codedigilab@gmail.com"><script type="text/javascript"> document.write(email) </script></a>
                         </p>
                     </div>
                 </div>
