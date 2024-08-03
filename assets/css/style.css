@@ -1,11 +1,6 @@
 @charset "UTF-8";
 /*
-Template Name: Rakar
-Template URL: https://html.themeholy.com/rakar/
-Description: Handyman Multipurpose Repairing Services HTML Template
-Author: themeholy
-Author URI: https://themeforest.net/user/themeholy
-Version: 1.0.0
+
 */
 /*=================================
     CSS Index Here
@@ -13391,7 +13386,7 @@ span.select2-selection.select2-selection--single:focus {
 
 .contact-area {
   background-color: var(--white-color);
-  padding: 80px;
+  padding: 10px;
   /* Small devices */
   /* Extra small devices */
 }

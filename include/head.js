@@ -52,7 +52,7 @@ document.write(`
 <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
 <!-- Theme Custom CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
-
+<script src="include/data.js"></script>
 <script type="text/javascript">
     var name = 'CODE DIGI LAB';
     var email = 'c4codedigilab@gmail.com';
