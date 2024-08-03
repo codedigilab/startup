@@ -404,7 +404,7 @@ About Area
         </div>
     </div>
     <!--==============================
-Service Area  khalid
+Service Area  
 ==============================-->
     <section class="overflow-hidden space" id="service-sec" data-bg-src="assets/img/bg/service_bg_1.jpg">
         <div class="container pb-45">
@@ -412,7 +412,7 @@ Service Area  khalid
                 <div class="col-xl-4 text-center text-xl-start">
                     <div class="title-area">
                         <span class="sub-title shape-white"><img src="assets/img/theme-img/title_icon_white.svg"
-                                alt="shape">What we do khalid</span>
+                                alt="shape">What we do </span>
                         <h2 class="sec-title text-white">Our Services</h2>
                     </div>
                 </div>
@@ -497,10 +497,15 @@ Service Area  khalid
                 <div class="swiper th-slider has-shadow" id="serviceSlider3"
                     data-slider-options='{"paginationType":"fraction","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"3"},"1300":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
+
+                        <script type="text/javascript"> 
+                            ourservices.forEach((element, index, array) => {
+                                document.write(` 
+
                         <div class="swiper-slide">
                             <div class="service-block">
                                 <div class="box-img">
-                                    <img src="assets/img/service/service_block_1.webp" alt="Icon">
+                                    <img src="${element.image}" alt="Icon">
                                 </div>
                                 <a href="service-details.html" class="icon-btn"><i
                                         class="far fa-arrow-up-right"></i></a>
@@ -508,115 +513,13 @@ Service Area  khalid
                                     <div class="box-icon">
                                         <img src="assets/img/icon/service_block_1.svg" alt="Icon">
                                     </div>
-                                    <h3 class="box-title"><a href="service-details.html">Web Development</a></h3>
+                                    <h3 class="box-title"><a href="${element.link}">${element.title}</a></h3>
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_2.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_2.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">Digital Marketing</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_3.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_3.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">Apps Development</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_4.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_4.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">E-Commerce</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_1.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_1.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">Web Development</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_2.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_2.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">Digital Marketing</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_3.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_3.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">Apps Development</a></h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="service-block">
-                                <div class="box-img">
-                                    <img src="assets/img/service/service_block_4.webp" alt="Icon">
-                                </div>
-                                <a href="service-details.html" class="icon-btn"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <div class="box-icon">
-                                        <img src="assets/img/icon/service_block_4.svg" alt="Icon">
-                                    </div>
-                                    <h3 class="box-title"><a href="service-details.html">E-Commerce</a></h3>
-                                </div>
-                            </div>
-                        </div>
+                        `);
+                                        });
+                        </script>
 
                     </div>
                 </div>
@@ -753,34 +656,19 @@ Process Area
             </div>
 
             <div class="process-box-wrap">
+                <script type="text/javascript"> 
+                    workingprocess.forEach((element, index, array) => {
+                        document.write(` 
                 <div class="process-box">
-                    <div class="box-number">01</div>
+                    <div class="box-number">${element.number}</div>
                     <div class="box-content">
-                        <h3 class="box-title">Meet Our Team</h3>
-                        <p class="box-text">Proactively envisioned multimedia based expertisee cross-media growth</p>
+                        <h3 class="box-title">${element.title}</h3>
+                        <p class="box-text">${element.details}</p>
                     </div>
                 </div>
-                <div class="process-box">
-                    <div class="box-number">02</div>
-                    <div class="box-content">
-                        <h3 class="box-title">Get Estimation</h3>
-                        <p class="box-text">Proactively envisioned multimedia based expertisee cross-media growth</p>
-                    </div>
-                </div>
-                <div class="process-box">
-                    <div class="box-number">03</div>
-                    <div class="box-content">
-                        <h3 class="box-title">Start Project</h3>
-                        <p class="box-text">Proactively envisioned multimedia based expertisee cross-media growth</p>
-                    </div>
-                </div>
-                <div class="process-box">
-                    <div class="box-number">04</div>
-                    <div class="box-content">
-                        <h3 class="box-title">Deliver Project</h3>
-                        <p class="box-text">Proactively envisioned multimedia based expertisee cross-media growth</p>
-                    </div>
-                </div>
+                `);
+                         });
+                        </script>
             </div>
         </div>
     </section>
@@ -1272,101 +1160,29 @@ Team Area
                 <div class="swiper th-slider has-shadow" id="teamSlider5"
                     data-slider-options='{"paginationType":"fraction","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"3"}}}'>
                     <div class="swiper-wrapper">
+
+                        <script type="text/javascript"> 
+                            expertteam.forEach((element, index, array) => {
+                                document.write(`
                         <div class="swiper-slide">
                             <div class="th-team team-element">
                                 <div class="box-img">
-                                    <img src="assets/img/team/team_5_1.png" alt="Team">
+                                    <img src="${element.image}" alt="Team">
                                 </div>
-                                <a href="team-details.html" class="icon-btn arrow-icon"><i
+                                <a href="${element.link}" class="icon-btn arrow-icon"><i
                                         class="far fa-arrow-up-right"></i></a>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="team-details.html">John Simon</a></h3>
-                                    <span class="box-desig">Electrician</span>
-                                    <a href="https://api.whatsapp.com/send/?phone=4917620924001"
+                                    <h3 class="box-title"><a href="${element.link}">${element.title}</a></h3>
+                                    <a href="https://wa.me/${element.whatsapp}"
                                         class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
                                 </div>
                             </div>
                         </div>
 
-                        <div class="swiper-slide">
-                            <div class="th-team team-element">
-                                <div class="box-img">
-                                    <img src="assets/img/team/team_5_2.png" alt="Team">
-                                </div>
-                                <a href="team-details.html" class="icon-btn arrow-icon"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="team-details.html">Michel Jack</a></h3>
-                                    <span class="box-desig">Electrician</span>
-                                    <a href="https://api.whatsapp.com/send/?phone=4917620924001"
-                                        class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="th-team team-element">
-                                <div class="box-img">
-                                    <img src="assets/img/team/team_5_3.png" alt="Team">
-                                </div>
-                                <a href="team-details.html" class="icon-btn arrow-icon"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="team-details.html">Mackolin Smith</a></h3>
-                                    <span class="box-desig">Electrician</span>
-                                    <a href="https://api.whatsapp.com/send/?phone=4917620924001"
-                                        class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="th-team team-element">
-                                <div class="box-img">
-                                    <img src="assets/img/team/team_5_1.png" alt="Team">
-                                </div>
-                                <a href="team-details.html" class="icon-btn arrow-icon"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="team-details.html">Ralph Edwards</a></h3>
-                                    <span class="box-desig">Electrician</span>
-                                    <a href="https://api.whatsapp.com/send/?phone=4917620924001"
-                                        class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="th-team team-element">
-                                <div class="box-img">
-                                    <img src="assets/img/team/team_5_2.png" alt="Team">
-                                </div>
-                                <a href="team-details.html" class="icon-btn arrow-icon"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="team-details.html">Guy Hawkins</a></h3>
-                                    <span class="box-desig">Electrician</span>
-                                    <a href="https://api.whatsapp.com/send/?phone=4917620924001"
-                                        class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="swiper-slide">
-                            <div class="th-team team-element">
-                                <div class="box-img">
-                                    <img src="assets/img/team/team_5_3.png" alt="Team">
-                                </div>
-                                <a href="team-details.html" class="icon-btn arrow-icon"><i
-                                        class="far fa-arrow-up-right"></i></a>
-                                <div class="box-content">
-                                    <h3 class="box-title"><a href="team-details.html">Jacob Jones</a></h3>
-                                    <span class="box-desig">Electrician</span>
-                                    <a href="https://api.whatsapp.com/send/?phone=4917620924001"
-                                        class="icon-btn whatsapp"><i class="fab fa-whatsapp"></i></a>
-                                </div>
-                            </div>
-                        </div>
+                        `);
+                                        });
+                        </script>
+                        
 
                     </div>
                 </div>
@@ -1396,11 +1212,13 @@ Testimonial Area
                 <div class="swiper th-slider has-shadow" id="testiSlider5"
                     data-slider-options='{"paginationType":"fraction","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"}}}'>
                     <div class="swiper-wrapper">
+
+                        <script type="text/javascript"> 
+                            testimonial.forEach((element, index, array) => {
+                                document.write(` 
                         <div class="swiper-slide">
                             <div class="testi-grid style2">
-                                <div class="box-logo">
-                                    <img src="assets/img/brand/testi_logo_1.svg" alt="Image">
-                                </div>
+                                
                                 <div class="box-icon">
                                     <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -1416,8 +1234,7 @@ Testimonial Area
                                         <img src="assets/img/testimonial/testi_3_1.jpg" alt="Avater">
                                     </div>
                                     <div class="media-body">
-                                        <h3 class="box-title">Sumaiya Zara</h3>
-                                        <p class="box-desig">CEO Of Company</p>
+                                        <h3 class="box-title">${element.title}</h3>
                                     </div>
                                 </div>
                                 <div class="box-review">
@@ -1426,122 +1243,13 @@ Testimonial Area
                                         class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
                                 </div>
                                 <p class="box-text">
-                                    <script type="text/javascript"> document.write(name) </script> has most quality
-                                    services by subtle craftmens, Diam id semper
-                                    tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                    consectetur quis leo on the  praesent scelerisque.
+                                    ${element.details}
                                 </p>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid style2">
-                                <div class="box-logo">
-                                    <img src="assets/img/brand/testi_logo_2.svg" alt="Image">
-                                </div>
-                                <div class="box-icon">
-                                    <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="70.5" y="70" width="70" height="70" rx="35"
-                                            transform="rotate(180 70.5 70)" fill="var(--theme-color)" />
-                                        <path
-                                            d="M47.3629 25.975C48.9879 27.7167 49.9629 29.6167 49.9629 32.7833C49.9629 38.325 45.9004 43.2333 40.2129 45.7667L38.7504 43.7083C44.1129 40.8583 45.2504 37.2167 45.5754 34.8417C44.7629 35.3167 43.6254 35.475 42.4879 35.3167C39.5629 35 37.2879 32.7833 37.2879 29.775C37.2879 28.35 37.9379 26.925 38.9129 25.8167C40.0504 24.7083 41.3504 24.2333 42.9754 24.2333C44.7629 24.2333 46.3879 25.025 47.3629 25.975ZM31.1129 25.975C32.7379 27.7167 33.7129 29.6167 33.7129 32.7833C33.7129 38.325 29.6504 43.2333 23.9629 45.7667L22.5004 43.7083C27.8629 40.8583 29.0004 37.2167 29.3254 34.8417C28.5129 35.3167 27.3754 35.475 26.2379 35.3167C23.3129 35 21.0379 32.7833 21.0379 29.775C21.0379 28.35 21.6879 26.925 22.6629 25.8167C23.6379 24.7083 25.1004 24.2333 26.7254 24.2333C28.5129 24.2333 30.1379 25.025 31.1129 25.975Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
-                                <div class="box-profile">
-                                    <div class="box-avater">
-                                        <img src="assets/img/testimonial/testi_3_2.jpg" alt="Avater">
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="box-title">Alex Simon</h3>
-                                        <p class="box-desig">Managing Director</p>
-                                    </div>
-                                </div>
-                                <div class="box-review">
-                                    <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                                <p class="box-text">The most quality services by subtle craftmens, Diam id semper
-                                    tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                    consectetur quis leo on the  praesent in
-                                    <script type="text/javascript"> document.write(name) </script>.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid style2">
-                                <div class="box-logo">
-                                    <img src="assets/img/brand/testi_logo_1.svg" alt="Image">
-                                </div>
-                                <div class="box-icon">
-                                    <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="70.5" y="70" width="70" height="70" rx="35"
-                                            transform="rotate(180 70.5 70)" fill="var(--theme-color)" />
-                                        <path
-                                            d="M47.3629 25.975C48.9879 27.7167 49.9629 29.6167 49.9629 32.7833C49.9629 38.325 45.9004 43.2333 40.2129 45.7667L38.7504 43.7083C44.1129 40.8583 45.2504 37.2167 45.5754 34.8417C44.7629 35.3167 43.6254 35.475 42.4879 35.3167C39.5629 35 37.2879 32.7833 37.2879 29.775C37.2879 28.35 37.9379 26.925 38.9129 25.8167C40.0504 24.7083 41.3504 24.2333 42.9754 24.2333C44.7629 24.2333 46.3879 25.025 47.3629 25.975ZM31.1129 25.975C32.7379 27.7167 33.7129 29.6167 33.7129 32.7833C33.7129 38.325 29.6504 43.2333 23.9629 45.7667L22.5004 43.7083C27.8629 40.8583 29.0004 37.2167 29.3254 34.8417C28.5129 35.3167 27.3754 35.475 26.2379 35.3167C23.3129 35 21.0379 32.7833 21.0379 29.775C21.0379 28.35 21.6879 26.925 22.6629 25.8167C23.6379 24.7083 25.1004 24.2333 26.7254 24.2333C28.5129 24.2333 30.1379 25.025 31.1129 25.975Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
-                                <div class="box-profile">
-                                    <div class="box-avater">
-                                        <img src="assets/img/testimonial/testi_3_1.jpg" alt="Avater">
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="box-title">Agelina Margret</h3>
-                                        <p class="box-desig">CEO Of Company</p>
-                                    </div>
-                                </div>
-                                <div class="box-review">
-                                    <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                                <p class="box-text">
-                                    <script type="text/javascript"> document.write(name) </script> has most quality
-                                    services by subtle craftmens, Diam id semper
-                                    tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                    consectetur quis leo on the  praesent scelerisque.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-grid style2">
-                                <div class="box-logo">
-                                    <img src="assets/img/brand/testi_logo_2.svg" alt="Image">
-                                </div>
-                                <div class="box-icon">
-                                    <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <rect x="70.5" y="70" width="70" height="70" rx="35"
-                                            transform="rotate(180 70.5 70)" fill="var(--theme-color)" />
-                                        <path
-                                            d="M47.3629 25.975C48.9879 27.7167 49.9629 29.6167 49.9629 32.7833C49.9629 38.325 45.9004 43.2333 40.2129 45.7667L38.7504 43.7083C44.1129 40.8583 45.2504 37.2167 45.5754 34.8417C44.7629 35.3167 43.6254 35.475 42.4879 35.3167C39.5629 35 37.2879 32.7833 37.2879 29.775C37.2879 28.35 37.9379 26.925 38.9129 25.8167C40.0504 24.7083 41.3504 24.2333 42.9754 24.2333C44.7629 24.2333 46.3879 25.025 47.3629 25.975ZM31.1129 25.975C32.7379 27.7167 33.7129 29.6167 33.7129 32.7833C33.7129 38.325 29.6504 43.2333 23.9629 45.7667L22.5004 43.7083C27.8629 40.8583 29.0004 37.2167 29.3254 34.8417C28.5129 35.3167 27.3754 35.475 26.2379 35.3167C23.3129 35 21.0379 32.7833 21.0379 29.775C21.0379 28.35 21.6879 26.925 22.6629 25.8167C23.6379 24.7083 25.1004 24.2333 26.7254 24.2333C28.5129 24.2333 30.1379 25.025 31.1129 25.975Z"
-                                            fill="white" />
-                                    </svg>
-                                </div>
-                                <div class="box-profile">
-                                    <div class="box-avater">
-                                        <img src="assets/img/testimonial/testi_3_2.jpg" alt="Avater">
-                                    </div>
-                                    <div class="media-body">
-                                        <h3 class="box-title">Robert Danials</h3>
-                                        <p class="box-desig">Managing Director</p>
-                                    </div>
-                                </div>
-                                <div class="box-review">
-                                    <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i
-                                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                </div>
-                                <p class="box-text">The most quality services by subtle craftmens, Diam id semper
-                                    tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed
-                                    consectetur quis leo on the  praesent in
-                                    <script type="text/javascript"> document.write(name) </script>.
-                                </p>
-                            </div>
-                        </div>
+                        `);
+                             });
+                        </script>
                     </div>
                     <div class="slider-pagination"></div>
                 </div>
@@ -1579,69 +1287,32 @@ Blog Area
                 </div>
             </div>
             <div class="row gy-4">
+
+                <script type="text/javascript"> 
+                    blog.forEach((element, index, array) => {
+                        document.write(` 
                 <div class="col-xl-4 col-md-6">
                     <div class="blog-grid">
-                        <a href="blog-details.html" class="blog-img">
-                            <img src="assets/img/blog/blog_4_1.jpg" alt="blog image">
+                        <a href="${element.link}" class="blog-img">
+                            <img src="${element.image}" alt="blog image">
                         </a>
-                        <a href="blog-details.html" class="icon-btn"><i class="far fa-arrow-right"></i></a>
+                        <a href="${element.link}" class="icon-btn"><i class="far fa-arrow-right"></i></a>
                         <span class="box-date"></span>
                         <div class="blog-content">
                             <div class="blog-meta">
-                                <a href="blog.html"><i class="fas fa-user"></i>By
-                                    <script type="text/javascript"> document.write(name) </script>
+                                <a href="${element.link}"><i class="fas fa-user"></i>By
+                                    CODE DIGI LAB
                                 </a>
-                                <a href="blog.html"><i class="fas fa-calendar-days"></i><span class="date">15</span>
+                                <a href="${element.link}"><i class="fas fa-calendar-days"></i><span class="date">15</span>
                                     Jan, 2024</a>
                             </div>
-                            <h3 class="box-title"><a href="blog-details.html">All in one 5 Signs You Need To Repair Your
-                                    Home Roof</a></h3>
+                            <h3 class="box-title"><a href="${element.link}">${element.title}</a></h3>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-xl-4 col-md-6">
-                    <div class="blog-grid">
-                        <a href="blog-details.html" class="blog-img">
-                            <img src="assets/img/blog/blog_4_2.jpg" alt="blog image">
-                        </a>
-                        <a href="blog-details.html" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                        <span class="box-date"></span>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <a href="blog.html"><i class="fas fa-user"></i>By
-                                    <script type="text/javascript"> document.write(name) </script>
-                                </a>
-                                <a href="blog.html"><i class="fas fa-calendar-days"></i><span class="date">16</span>
-                                    Jan, 2024</a>
-                            </div>
-                            <h3 class="box-title"><a href="blog-details.html">Interior renovation in the home using
-                                    up-to-date tools</a></h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-4 col-md-6">
-                    <div class="blog-grid">
-                        <a href="blog-details.html" class="blog-img">
-                            <img src="assets/img/blog/blog_4_3.jpg" alt="blog image">
-                        </a>
-                        <a href="blog-details.html" class="icon-btn"><i class="far fa-arrow-right"></i></a>
-                        <span class="box-date"></span>
-                        <div class="blog-content">
-                            <div class="blog-meta">
-                                <a href="blog.html"><i class="fas fa-user"></i>By
-                                    <script type="text/javascript"> document.write(name) </script>
-                                </a>
-                                <a href="blog.html"><i class="fas fa-calendar-days"></i><span class="date">17</span>
-                                    Jan, 2024</a>
-                            </div>
-                            <h3 class="box-title"><a href="blog-details.html">AC repair in the home using up-to-date
-                                    equipment</a></h3>
-                        </div>
-                    </div>
-                </div>
-
+                `);
+                                        });
+                        </script>
             </div>
         </div>
     </section>
