@@ -58,95 +58,8 @@ Service Area
     </section>
 
 
-    <!--==============================
-Contact Area   
-==============================-->
-    <div class="overflow-hidden bg-white">
-        <div class="shape-mockup moving d-none d-xxl-block" data-bottom="0%" data-right="0%"><img src="assets/img/shape/man_shape_1.png" alt="shape"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-6">
-                    <div class="img-box3">
-                        <div class="img1">
-                            <img src="assets/img/normal/contact_1.jpg" alt="Image">
-                        </div>
-                        <div class="contact-process-wrap">
-                            <div class="contact-process">
-                                <div class="box-number">01</div>
-                                <div class="media-body">
-                                    <h3 class="box-title">Book Online</h3>
-                                    <p class="box-text">Willing to go the extra mile to provide a quality job & service. Although we are based in the Manchester area.</p>
-                                </div>
-                            </div>
-                            <div class="contact-process">
-                                <div class="box-number">02</div>
-                                <div class="media-body">
-                                    <h3 class="box-title">Detailed Estimate</h3>
-                                    <p class="box-text">Although we are based in the Manchester area, we work with fit out companies and contractors across the country.</p>
-                                </div>
-                            </div>
-                            <div class="contact-process">
-                                <div class="box-number">03</div>
-                                <div class="media-body">
-                                    <h3 class="box-title">Work Planning</h3>
-                                    <p class="box-text">We work with fit out companies and other contractors across the country.Although we are based in the Manchester area.</p>
-                                </div>
-                            </div>
-                            <div class="contact-process">
-                                <div class="box-number">04</div>
-                                <div class="media-body">
-                                    <h3 class="box-title">Get Delivery</h3>
-                                    <p class="box-text">Delivery with fit out companies and other contractors across the country.Although we are based in the Manchester area.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-6 text-center text-xl-start align-self-center space-extra">
-                    <div class="title-area">
-                        <span class="sub-title"><img src="assets/img/theme-img/title_icon.svg" alt="shape">Book an appointment</span>
-                        <h2 class="sec-title">Request a quote</h2>
-                    </div>
-                    <form action="mail.php" method="POST" class="input-light ajax-contact pb-30 pb-md-0">
-                        <div class="row">
-                            <div class="form-group col-md-6">
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
-                                <i class="fal fa-user"></i>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
-                                <i class="fal fa-envelope"></i>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <input type="tel" class="form-control" name="number" id="number" placeholder="Phone Number">
-                                <i class="fal fa-phone"></i>
-                            </div>
-                            <div class="form-group col-md-6">
-                                <select name="subject" id="subject" class="form-select">
-                                    <option value="" disabled selected hidden>Select Subject</option>
-                                    <option value="General Query">General Query</option>
-                                    <option value="Help Support">Help Support</option>
-                                    <option value="Sales Support">Sales Support</option>
-                                </select>
-                                <i class="fal fa-chevron-down"></i>
-                            </div>
-                            <div class="form-group col-12">
-                                <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Your Message"></textarea>
-                                <i class="fal fa-pencil"></i>
-                            </div>
-                            <div class="form-btn col-12">
-                                <button class="th-btn">Send Message Now<i class="far fa-arrow-right ms-2"></i></button>
-                            </div>
-                        </div>
-                        <p class="form-messages mb-0 mt-3"></p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--==============================
-Gallery Area  
-==============================-->
+    <script src="include/form.js"></script>
+
     <div class="overflow-hidden space">
         <div class="container text-center">
             <div class="title-area text-center">
@@ -469,114 +382,64 @@ Price Area
     <!--==============================
 Testimonial Area  
 ==============================-->
-    <section class="space" id="testi-sec" data-bg-src="assets/img/bg/pattern_bg_1.png">
+    <section class="overflow-hidden space" id="testi-sec" data-bg-src="assets/img/bg/testi_bg_5.jpg">
         <div class="container">
-            <div class="row justify-content-between align-items-center">
-                <div class="col-md">
-                    <div class="title-area text-center text-md-start">
-                        <span class="sub-title"><img src="assets/img/theme-img/title_icon.svg" alt="shape">Testimonial</span>
-                        <h2 class="sec-title">What our client say</h2>
-                    </div>
-                </div>
-                <div class="col-md-auto">
-                    <div class="sec-btn mt-n3 mt-md-0">
-                        <a href="testimonial.html" class="th-btn style4">View All Reviews<i class="far fa-arrow-right ms-2"></i></a>
-                    </div>
-                </div>
+            <div class="title-area text-center">
+                <span class="sub-title2"><span class="line"></span><img src="assets/img/theme-img/title_icon5_white.svg"
+                        alt="shape">Testimonial</span>
+                <h2 class="sec-title text-white">What our client say</h2>
             </div>
-            <div class="slider-area">
-                <div class="swiper th-slider has-shadow" id="testiSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"}}}'>
+            <div class="slider-wrap text-center">
+                <div class="swiper th-slider has-shadow" id="testiSlider5"
+                    data-slider-options='{"paginationType":"fraction","breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"1"},"768":{"slidesPerView":"1"},"992":{"slidesPerView":"2"},"1200":{"slidesPerView":"2"}}}'>
                     <div class="swiper-wrapper">
+
+                        <script type="text/javascript"> 
+                            testimonial.forEach((element, index, array) => {
+                                document.write(` 
                         <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img">
-                                    <img src="assets/img/testimonial/testi_b_1.jpg" alt="Image">
+                            <div class="testi-grid style2">
+                                
+                                <div class="box-icon">
+                                    <svg width="71" height="70" viewBox="0 0 71 70" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <rect x="70.5" y="70" width="70" height="70" rx="35"
+                                            transform="rotate(180 70.5 70)" fill="var(--theme-color)" />
+                                        <path
+                                            d="M47.3629 25.975C48.9879 27.7167 49.9629 29.6167 49.9629 32.7833C49.9629 38.325 45.9004 43.2333 40.2129 45.7667L38.7504 43.7083C44.1129 40.8583 45.2504 37.2167 45.5754 34.8417C44.7629 35.3167 43.6254 35.475 42.4879 35.3167C39.5629 35 37.2879 32.7833 37.2879 29.775C37.2879 28.35 37.9379 26.925 38.9129 25.8167C40.0504 24.7083 41.3504 24.2333 42.9754 24.2333C44.7629 24.2333 46.3879 25.025 47.3629 25.975ZM31.1129 25.975C32.7379 27.7167 33.7129 29.6167 33.7129 32.7833C33.7129 38.325 29.6504 43.2333 23.9629 45.7667L22.5004 43.7083C27.8629 40.8583 29.0004 37.2167 29.3254 34.8417C28.5129 35.3167 27.3754 35.475 26.2379 35.3167C23.3129 35 21.0379 32.7833 21.0379 29.775C21.0379 28.35 21.6879 26.925 22.6629 25.8167C23.6379 24.7083 25.1004 24.2333 26.7254 24.2333C28.5129 24.2333 30.1379 25.025 31.1129 25.975Z"
+                                            fill="white" />
+                                    </svg>
                                 </div>
-                                <div class="box-content">
-                                    <div class="box-review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                <div class="box-profile">
+                                    <div class="box-avater">
+                                        <img src="assets/img/testimonial/testi_3_1.jpg" alt="Avater">
                                     </div>
-                                    <p class="box-text">Rakar has most quality services by subtle craftmens, Diam id semper tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed consectetur quis leo on the  praesent scelerisque.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater">
-                                            <img src="assets/img/testimonial/testi_1_1.jpg" alt="Avater">
-                                        </div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Sumaiya Zara</h3>
-                                            <p class="box-desig">CEO Of Company</p>
-                                        </div>
+                                    <div class="media-body">
+                                        <h3 class="box-title">${element.title}</h3>
                                     </div>
                                 </div>
+                                <div class="box-review">
+                                    <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i
+                                        class="fa-sharp fa-solid fa-star"></i><i
+                                        class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
+                                </div>
+                                <p class="box-text">
+                                    ${element.details}
+                                </p>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img">
-                                    <img src="assets/img/testimonial/testi_b_2.jpg" alt="Image">
-                                </div>
-                                <div class="box-content">
-                                    <div class="box-review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">The most quality services by subtle craftmens, Diam id semper tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed consectetur quis leo on the  praesent in Rakar.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater">
-                                            <img src="assets/img/testimonial/testi_1_2.jpg" alt="Avater">
-                                        </div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Alex Simon</h3>
-                                            <p class="box-desig">Managing Director</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img">
-                                    <img src="assets/img/testimonial/testi_b_1.jpg" alt="Image">
-                                </div>
-                                <div class="box-content">
-                                    <div class="box-review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">Rakar has most quality services by subtle craftmens, Diam id semper tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed consectetur quis leo on the  praesent scelerisque.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater">
-                                            <img src="assets/img/testimonial/testi_1_1.jpg" alt="Avater">
-                                        </div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Agelina Margret</h3>
-                                            <p class="box-desig">CEO Of Company</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-slide">
-                            <div class="testi-card">
-                                <div class="box-img">
-                                    <img src="assets/img/testimonial/testi_b_2.jpg" alt="Image">
-                                </div>
-                                <div class="box-content">
-                                    <div class="box-review">
-                                        <i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i><i class="fa-sharp fa-solid fa-star"></i>
-                                    </div>
-                                    <p class="box-text">The most quality services by subtle craftmens, Diam id semper tellus. Est aliquam sit est ac. Felis diam nunc nibh blandit risus ndrerit sed consectetur quis leo on the  praesent in Rakar.</p>
-                                    <div class="box-profile">
-                                        <div class="box-avater">
-                                            <img src="assets/img/testimonial/testi_1_2.jpg" alt="Avater">
-                                        </div>
-                                        <div class="media-body">
-                                            <h3 class="box-title">Robert Danials</h3>
-                                            <p class="box-desig">Managing Director</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        `);
+                             });
+                        </script>
                     </div>
                     <div class="slider-pagination"></div>
+                </div>
+                <div class="slider-controller">
+                    <button data-slider-prev="#testiSlider5" class="slider-arrow default text-white slider-prev"><i
+                            class="far fa-arrow-left"></i></button>
+                    <div class="slider-pagination white-color" data-slider-id="#testiSlider5"></div>
+                    <button data-slider-next="#testiSlider5" class="slider-arrow default text-white slider-next"><i
+                            class="far fa-arrow-right"></i></button>
                 </div>
             </div>
         </div>
