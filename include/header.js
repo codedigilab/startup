@@ -29,7 +29,7 @@ Mobile Menu
 <div class="th-menu-area text-center">
     <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
     <div class="mobile-logo">
-        <a href="index.html"><img src="assets/img/logo-tertiary-black.svg" alt="Rakar"></a>
+        <a href="index.html"><img src="assets/img/logo.png" alt="Rakar"></a>
     </div>
     <div class="th-mobile-menu">
         <ul>
@@ -76,13 +76,13 @@ Header Area
             <div class="row align-items-start justify-content-between">
                 <div class="col-auto d-none d-lg-block">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/img/logo-tertiary.svg" alt="Rakar"></a>
+                        <a href="index.html"><img src="assets/img/logo.png" alt="Rakar"></a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="menu-wrap">
                         <div class="header-logo d-block d-lg-none">
-                            <a href="index.html"><img src="assets/img/logo-tertiary-black.svg"
+                            <a href="index.html"><img src="assets/img/logo.png"
                                     alt="Rakar"></a>
                         </div>
                         <nav class="main-menu d-none d-lg-inline-block">

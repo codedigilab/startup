@@ -46,7 +46,7 @@ Footer Area
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="home-handyman.html"><img src="assets/img/logo-tertiary.svg"
+                                <a href="home-handyman.html"><img src="assets/img/logo.png"
                                         alt="Rakar"></a>
                             </div>
                             <p class="about-text">Going forward, a new normal that has evolved from generation is on
