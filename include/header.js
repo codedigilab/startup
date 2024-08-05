@@ -52,7 +52,7 @@ Header Area
                 <div class="header-links">
                     <ul>
                         <li><i class="fas fa-location-dot"></i> <script type="text/javascript"> document.write(address) </script></li>
-                        <li><i class="fas fa-clock"></i> Sun to Friday: 8.00 am - 7.00 pm</li>
+                        <li><i class="fas fa-clock"></i> Mon to Saturday: 9.00 am - 7.00 pm</li>
                     </ul>
                 </div>
             </div>
