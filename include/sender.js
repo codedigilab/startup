@@ -28,7 +28,12 @@ var sender = function () {
     };
     $.ajax(settings).done(function (response) {
         console.log(response);
-        alert("Our Team Will Contact You Shortly!");
+        Swal.fire({
+            title: "Our Team Will Contact You Shortly!",
+            text: "You clicked the button!",
+            icon: "success"
+          });
+        
     });
     document.getElementById("name").value = "";
     document.getElementById("email").value = "";

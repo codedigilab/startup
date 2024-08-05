@@ -54,6 +54,7 @@ document.write(`
 <link rel="stylesheet" href="assets/css/style.css">
 <script src="include/data.js"></script>
 <script src="include/sender.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script type="text/javascript">
     var name = 'CODE DIGI LAB';
     var email = 'c4codedigilab@gmail.com';
