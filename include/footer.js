@@ -49,14 +49,8 @@ Footer Area
                                 <a href="home-handyman.html"><img src="assets/img/logo.png"
                                         alt="Rakar"></a>
                             </div>
-                            <p class="about-text">Going forward, a new normal that has evolved from generation is on
-                                the runway heading towards a streamlined cloud solution.</p>
-                            <div class="th-social">
-                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                                <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                            </div>
+                            <p class="about-text">Find out how we can help you make more money online with our tailored, expert-led digital services by booking a free consultation with one of our experts. Call us on:</p>
+                            
                         </div>
                     </div>
                 </div>
