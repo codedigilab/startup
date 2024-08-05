@@ -54,7 +54,7 @@ document.write(`
                                 <span class="sub-title"><span class="line"></span><img src="assets/img/theme-img/title_icon4.svg" alt="shape">Book an appointment</span>
                                 <h2 class="sec-title">Request a quote</h2>
                             </div>
-                            <form action="mail.php" method="POST" class="contact-form2 ajax-contact">
+                            <form action="" onsubmit=" return sender()" class="contact-form2 ajax-contact">
                                 <div class="row">
                                     <div class="form-group col-md-6">
                                         <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
@@ -73,7 +73,7 @@ document.write(`
                                         <i class="fal fa-pencil"></i>
                                     </div>
                                     <div class="form-btn col-12">
-                                        <button class="th-btn rounded-10">Submit Request<i class="far fa-arrow-right ms-2"></i></button>
+                                        <button class="th-btn rounded-10" id="btn">Submit Request<i class="far fa-arrow-right ms-2"></i></button>
                                     </div>
                                 </div>
                                 <p class="form-messages mb-0 mt-3"></p>

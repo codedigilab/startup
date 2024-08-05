@@ -53,6 +53,7 @@ document.write(`
 <!-- Theme Custom CSS -->
 <link rel="stylesheet" href="assets/css/style.css">
 <script src="include/data.js"></script>
+<script src="include/sender.js"></script>
 <script type="text/javascript">
     var name = 'CODE DIGI LAB';
     var email = 'c4codedigilab@gmail.com';
