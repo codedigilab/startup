@@ -70,7 +70,7 @@ Footer Area
                                 <li><a href="about.html">About Us</a></li>
                                 <li><a href="about.html">Pricing Plan</a></li>
                                 <li><a href="service.html">Services</a></li>
-                                <li><a href="about.html">Testimonial</a></li>
+                                <li><a href="#">Testimonial</a></li>
                                 <li><a href="contact.html">Appointment</a></li>
                             </ul>
                         </div>
@@ -82,12 +82,12 @@ Footer Area
                             Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="service-details.html">Refrigerator</a></li>
-                                <li><a href="service-details.html">Microwave</a></li>
-                                <li><a href="service-details.html">Cookware Stove</a></li>
-                                <li><a href="service-details.html">Washing Machine</a></li>
-                                <li><a href="service-details.html">Juicer Mixer</a></li>
-                                <li><a href="service-details.html">Generator Install</a></li>
+                                <li><a href="service.html">Social Media Promotion</a></li>
+                                <li><a href="service.html">Website Development</a></li>
+                                <li><a href="service.html">Digital Marketing</a></li>
+                                <li><a href="service.html">Apps Development</a></li>
+                                <li><a href="service.html">E-commerce</a></li>
+                                <li><a href="service.html">CMS</a></li>
                             </ul>
                         </div>
                     </div>

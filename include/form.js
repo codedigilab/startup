@@ -50,7 +50,7 @@ Contact Area
                                 </div>
                             </div>
                             <h6 class="contact-info-text">We will get back to you within 24 hours, or Call us everyday,
-                                09:00AM - 06:00PM</h6>
+                                09:00AM - 07:00PM</h6>
                         </div>
                     </div>
                     <div class="col-xl-7 text-center text-xl-start">

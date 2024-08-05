@@ -61,7 +61,7 @@ Header Area
                     <ul>
                         <li class="d-none d-md-inline-block"><i class="fas fa-messages"></i> <a
                                 href="faq.html">FAQ</a></li>
-                        <li><i class="fas fa-headset"></i> <a href="contact.html">Support</a></li>
+                        <li><i  class="fas fa-phone-volume"></i> <a href="https://wa.me/7361040504">WhatsApp</a></li>
                         <li><i class="fas fa-user"></i> <a href="contact.html">Sign In / Register</a></li>
                     </ul>
                 </div>
