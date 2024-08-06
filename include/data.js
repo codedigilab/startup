@@ -2,60 +2,45 @@ const whatwedo  = [
     {
         number: '01',
         subtitle: 'Work Process',
-        title:'Analysis',
-        details:'In this, detailed analysis is performed such that all the necessary adjustments can be made.',
+        title:'Best Pool Of Designers',
+        details:'We have a team of skilled professionals who incorporate their creative thinking into corporate web.',
         link:'#',
     },
     {
         number: '02',
         subtitle: 'Work Process',
-        title:'Design',
-        details:'In this step, the architecture of the project is built in the right way. This step helps to remove any kind of flaws',
+        title:'Comprehensive Solutions',
+        details:'Our designers understand your business requirements and value propositions to the core to offer',
         link:'#',
     },
     {
         number: '03',
         subtitle: 'Work Process',
-        title:'Development ',
-        details:'Our team of software developers starts the process of software development. Further, functionalities.',
+        title:'100% Satisfaction ',
+        details:'With Tight quality control, right pricing, excellent accessibility and support, and timely delivery',
         link:'#',
         
     },
     {
         number: '04',
         subtitle: 'Work Process',
-        title:'Testing ',
-        details:'In this stage, the software is assessed for document bugs & errors that might be present. all errors are removed.',
+        title:'Deployment Support',
+        details:'Our work does not end at designing your corporate website that reflects your brand. We support real-time',
         link:'#',
     },
     
     {
         number: '05',
         subtitle: 'Work Process',
-        title:'Implementation ',
-        details:'In this stage, the software that is developed is assessed by the stakeholders. ',
+        title:'24x7 Assistance',
+        details:'Whatever query you have regarding your corporate website, before, after, or during the designing process.',
         link:'#',
     },
     {
         number: '06',
         subtitle: 'Work Process',
-        title:'Design',
-        details:'In this step, the architecture of the project is built in the right way. This step helps to remove any kind of flaws',
-        link:'#',
-    },
-    {
-        number: '07',
-        subtitle: 'Work Process',
-        title:'Development ',
-        details:'Our team of software developers starts the process of software development. Further, functionalities.',
-        link:'#',
-        
-    },
-    {
-        number: '08',
-        subtitle: 'Work Process',
-        title:'Analysis',
-        details:'In this, detailed analysis is performed such that all the necessary adjustments can be made.',
+        title:'Flexible Hiring',
+        details:'You can avail the services of our corporate web designers as per your requirements. You can hire part-time.',
         link:'#',
     }
 ]
@@ -132,6 +117,83 @@ const workingprocess  = [
         details:'',
         link:'#',
     },
+    
+]
+
+const CorporateWebsite  = [
+    {
+        number: '01',
+        title: 'Business Values',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '02',
+        title: 'Easy Management',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '03',
+        title: 'Better Relationships',
+        details:'',
+        link:'#',
+        
+    },
+    {
+        number: '04',
+        title: 'Ecommerce Capabilities',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '05',
+        title: 'Facilitates Purchase',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '06',
+        title: 'Credibility',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '07',
+        title: 'Less Expensive',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '08',
+        title: 'Advertising',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '09',
+        title: 'Satisfaction',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '10',
+        title: 'Increase Customers',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '11',
+        title: 'Accessibility',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '12',
+        title: 'Access To Information',
+        details:'',
+        link:'#',
+    }
     
 ]
 
