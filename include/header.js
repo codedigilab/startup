@@ -29,21 +29,21 @@ Mobile Menu
 <div class="th-menu-area text-center">
     <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
     <div class="mobile-logo">
-        <a href="index.html"><img src="assets/img/logo.png" alt="Rakar"></a>
+        <a href="index"><img src="assets/img/logo.png" alt="Rakar"></a>
     </div>
     <div class="th-mobile-menu">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index">Home</a></li>
             <li class="menu-item-has-children">
                 <a href="#">Our Services</a>
                 <ul class="sub-menu">
-                <li><a href="website-designing.html"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
-                <li><a href="static-website-design.html"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
+                <li><a href="website-designing"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
+                <li><a href="static-website-design"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
                 </ul>
             </li>    
-            <li><a href="portfolio.html">Project</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="portfolio">Project</a></li>
+            <li><a href="about">About Us</a></li>
+            <li><a href="contact">Contact Us</a></li>
         </ul>
     </div>
 </div>
@@ -66,9 +66,9 @@ Header Area
                 <div class="header-links">
                     <ul>
                         <li class="d-none d-md-inline-block"><i class="fas fa-messages"></i> <a
-                                href="faq.html">FAQ</a></li>
+                                href="faq">FAQ</a></li>
                         <li><i  class="fas fa-phone-volume"></i> <a href="https://wa.me/7361040504">WhatsApp</a></li>
-                        <li><i class="fas fa-user"></i> <a href="contact.html">Sign In / Register</a></li>
+                        <li><i class="fas fa-user"></i> <a href="contact">Sign In / Register</a></li>
                     </ul>
                 </div>
             </div>
@@ -82,28 +82,28 @@ Header Area
             <div class="row align-items-start justify-content-between">
                 <div class="col-auto d-none d-lg-block">
                     <div class="header-logo">
-                        <a href="index.html"><img src="assets/img/logo.png" alt="Rakar"></a>
+                        <a href="index"><img src="assets/img/logo.png" alt="Rakar"></a>
                     </div>
                 </div>
                 <div class="col">
                     <div class="menu-wrap">
                         <div class="header-logo d-block d-lg-none">
-                            <a href="index.html"><img src="assets/img/logo.png"
+                            <a href="index"><img src="assets/img/logo.png"
                                     alt="Rakar"></a>
                         </div>
                         <nav class="main-menu d-none d-lg-inline-block">
                             <ul>
-                                <li><a href="index.html">Home</a></li>
+                                <li><a href="index">Home</a></li>
                                 <li class="menu-item-has-children">
                                         <a href="#">Our Services</a>
                                         <ul class="sub-menu">
-                                            <li><a href="website-designing.html"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
-                                            <li><a href="static-website-design.html"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
+                                            <li><a href="website-designing"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
+                                            <li><a href="static-website-design"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
                                         </ul>
                                 </li>
-                                <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="contact.html">Contact Us</a> </li>
+                                <li><a href="portfolio">Portfolio</a></li>
+                                <li><a href="about">About Us</a></li>
+                                <li><a href="contact">Contact Us</a> </li>
                             </ul>
                         </nav>
                         <button type="button" class="simple-icon searchBoxToggler d-none d-lg-inline-block"><i
@@ -114,7 +114,7 @@ Header Area
                 </div>
                 <div class="col-auto d-none d-xl-block">
                     <div class="header-button">
-                        <a href="contact.html" class="th-btn rounded-12 style3">Get A Quote<i
+                        <a href="contact" class="th-btn rounded-12 style3">Get A Quote<i
                                 class="fas fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
