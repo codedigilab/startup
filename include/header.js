@@ -41,7 +41,7 @@ Mobile Menu
                 <li><a href="static-website-design"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
                 </ul>
             </li>    
-            <li><a href="portfolio">Project</a></li>
+            <li><a href="portfolio">Portfolio</a></li>
             <li><a href="about">About Us</a></li>
             <li><a href="contact">Contact Us</a></li>
         </ul>
