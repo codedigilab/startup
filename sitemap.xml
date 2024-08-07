@@ -13,11 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://codedigilab.com/service.html</loc>
-  <lastmod>2024-08-07T07:58:28+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://codedigilab.com/about.html</loc>
   <lastmod>2024-08-07T07:58:28+00:00</lastmod>
   <priority>0.80</priority>
@@ -33,6 +28,11 @@
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://codedigilab.com/service.html</loc>
+  <lastmod>2024-08-07T07:58:28+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://codedigilab.com/static-website-design.html</loc>
   <lastmod>2024-08-07T07:58:28+00:00</lastmod>
   <priority>0.80</priority>
@@ -42,5 +42,7 @@
   <lastmod>2024-08-07T07:58:28+00:00</lastmod>
   <priority>0.80</priority>
 </url>
+
+
 
 </urlset>
