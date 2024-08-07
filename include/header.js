@@ -34,8 +34,14 @@ Mobile Menu
     <div class="th-mobile-menu">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="service.html">Our Services</a></li>       
-            <li><a href="project.html">Project</a></li>
+            <li class="menu-item-has-children">
+                <a href="#">Our Services</a>
+                <ul class="sub-menu">
+                <li><a href="website-designing.html"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
+                <li><a href="static-website-design.html"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
+                </ul>
+            </li>    
+            <li><a href="portfolio.html">Project</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="contact.html">Contact Us</a></li>
         </ul>

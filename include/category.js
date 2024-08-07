@@ -27,15 +27,19 @@ document.write(`
             
         </ul>
     </div>
+   
     <div class="widget widget_tag_cloud  ">
-                            <h3 class="widget_title">Popular Services</h3>
-                            <div class="tagcloud">
-                                <a href="blog.html">Digital Marketing</a>
-                                <a href="blog.html">SEO Services</a>
-                                <a href="blog.html">Content Writing</a>
-                                <a href="blog.html">Advertising</a>
-                            </div>
-                        </div>
+        <h3 class="widget_title">Popular Services</h3>
+        <div class="tagcloud">
+            <a href="blog.html">Digital Marketing</a>
+            <a href="blog.html">SEO Services</a>
+            <a href="blog.html">Content Writing</a>
+            <a href="blog.html">Advertising</a>
+        </div>
+    </div>
+    
+  
+    
     <div class="widget widget_banner  " data-bg-src="assets/img/bg/widget_banner.jpg">
         <div class="widget-banner">
             <h3 class="box-title">We Are Here To Help You</h3>
