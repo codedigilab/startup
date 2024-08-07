@@ -197,6 +197,107 @@ const CorporateWebsite  = [
     
 ]
 
+const CorporateWebsite2  = [
+    {
+        number: '01',
+        title: 'Website Designing',
+        details:'',
+        link:'website-designing',
+    },
+    {
+        number: '02',
+        title: 'Static website design',
+        details:'',
+        link:'static-website-design',
+    },
+    {
+        number: '03',
+        title: 'Startup website design',
+        details:'',
+        link:'#',
+        
+    },
+    {
+        number: '04',
+        title: 'Free Website Design',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '05',
+        title: 'Dynamic website design',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '06',
+        title: 'Corporate website design',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '07',
+        title: 'CMS development',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '08',
+        title: 'E-commerce website',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '09',
+        title: 'Psd to HTML design',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '10',
+        title: 'Landing page website',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '11',
+        title: 'Email template design',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '12',
+        title: 'Custom website development',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '13',
+        title: 'Multi vendor Website',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '14',
+        title: 'Business profile website',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '15',
+        title: 'Informative website',
+        details:'',
+        link:'#',
+    },
+    {
+        number: '16',
+        title: 'Portfolio website',
+        details:'',
+        link:'#',
+    }
+    
+]
+
 const expertteam  = [
     {
         image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',

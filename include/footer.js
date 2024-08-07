@@ -46,7 +46,7 @@ Footer Area
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="home-handyman.html"><img src="assets/img/logo.png"
+                                <a href="home-handyman"><img src="assets/img/logo.png"
                                         alt="Rakar"></a>
                             </div>
                             <p class="about-text">Find out how we can help you make more money online with our tailored, expert-led digital services by booking a free consultation with one of our experts. Call us on:</p>
@@ -60,12 +60,12 @@ Footer Area
                             Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About Us</a></li>
-                                <li><a href="about.html">Pricing Plan</a></li>
-                                <li><a href="service.html">Services</a></li>
+                                <li><a href="index">Home</a></li>
+                                <li><a href="about">About Us</a></li>
+                                <li><a href="about">Pricing Plan</a></li>
+                                <li><a href="service">Services</a></li>
                                 <li><a href="#">Testimonial</a></li>
-                                <li><a href="contact.html">Appointment</a></li>
+                                <li><a href="contact">Appointment</a></li>
                             </ul>
                         </div>
                     </div>
@@ -76,12 +76,12 @@ Footer Area
                             Services</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="service.html">Social Media Promotion</a></li>
-                                <li><a href="service.html">Website Development</a></li>
-                                <li><a href="service.html">Digital Marketing</a></li>
-                                <li><a href="service.html">Apps Development</a></li>
-                                <li><a href="service.html">E-commerce</a></li>
-                                <li><a href="service.html">CMS</a></li>
+                                <li><a href="service">Social Media Promotion</a></li>
+                                <li><a href="service">Website Development</a></li>
+                                <li><a href="service">Digital Marketing</a></li>
+                                <li><a href="service">Apps Development</a></li>
+                                <li><a href="service">E-commerce</a></li>
+                                <li><a href="service">CMS</a></li>
                             </ul>
                         </div>
                     </div>
@@ -106,14 +106,14 @@ Footer Area
             <div class="row gy-2 align-items-center">
                 <div class="col-md-6">
                     <p class="copyright-text">Copyright <i class="fal fa-copyright"></i> 2024 <a
-                            href="index.html"> <script type="text/javascript"> document.write(name) </script>  </a>. All Rights Reserved.</p>
+                            href="index"> <script type="text/javascript"> document.write(name) </script>  </a>. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-center text-md-end">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="about.html">Terms of service</a></li>
-                            <li><a href="about.html">Privacy policy</a></li>
-                            <li><a href="about.html">Cookies</a></li>
+                            <li><a href="about">Terms of service</a></li>
+                            <li><a href="about">Privacy policy</a></li>
+                            <li><a href="about">Cookies</a></li>
                         </ul>
                     </div>
                 </div>
