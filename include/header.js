@@ -37,8 +37,8 @@ Mobile Menu
             <li class="menu-item-has-children">
                 <a href="#">Our Services</a>
                 <ul class="sub-menu">
-                <li><a href="website-designing"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
-                <li><a href="static-website-design"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
+                    <li><a href="website-designing"><img src="assets/img/icon/cat_5.svg" alt="icon"> Website Designing</a></li>
+                    <li><a href="static-website-design"><img src="assets/img/icon/cat_5.svg" alt="icon"> Static website design </a></li>
                 </ul>
             </li>    
             <li><a href="portfolio">Portfolio</a></li>
