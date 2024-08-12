@@ -22,7 +22,7 @@ Footer Area
                     </div>
                     <div class="media-body">
                         <h3 class="box-title text-white">Call Us:</h3>
-                        <p class="box-text text-white"><a href="tel:+917079203070">+91-<script type="text/javascript"> document.write(number2) </script></a></p>
+                        <p class="box-text text-white"><a href="tel:+917361040504">+91-<script type="text/javascript"> document.write(number2) </script></a></p>
                     </div>
                 </div>
                 <div class="divider"></div>

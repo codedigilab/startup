@@ -376,17 +376,20 @@ const testimonial  = [
 ]
 
 const blog  = [
-    {
+    {   
+        id: 1,
         image:'assets/img/service/service_block_2.webp',
         title: 'Meet the Leaders: Best Digital Marketing',
         link:'#',
     },
     {
+        id: 2,
         image:'assets/img/service/service_block_1.webp',
         title: ' Website Development Companies',
         link:'#',
     },
     {
+        id: 3,
         image:'assets/img/service/service_block_3.webp',
         title: 'Mobile App Development Firms',
         link:'#',
