@@ -6,3 +6,7 @@ https://codecanyon.net/item/trainee-management-system/51027030
 https://babia.to/threads/xavier-php-login-script-user-management-admin-panel.42001/
 
 spaceship.com domain
+
+FTP Username: mmwjube7ght@uttarakhanddigitalservices.com
+FTP server: ftp.uttarakhanddigitalservices.com
+FTP & explicit FTPS port:  21
