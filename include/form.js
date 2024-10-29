@@ -32,7 +32,7 @@ document.write(`
                                     </div>
                                     <div class="media-body">
                                         <h4 class="box-label">Call Us:</h4>
-                                        <p class="box-text"><a href="tel:+917361040504">+91-<script type="text/javascript"> document.write(number1) </script></a></p>
+                                        <p class="box-text"><a href="tel:+917079203070">+91-<script type="text/javascript"> document.write(number1) </script></a></p>
                                     </div>
                                 </div>
                                 <div class="contact-media">

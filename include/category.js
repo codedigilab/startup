@@ -45,7 +45,7 @@ document.write(`
             <h3 class="box-title">We Are Here To Help You</h3>
             <div class="logo"><img src="assets/img/logo.png" alt="Logo"></div>
             <p class="box-text">You Get Online support</p>
-            <h3 class="box-link"><a href="tel:+917361040504">+91-<script type="text/javascript"> document.write(number1) </script></a></h3>
+            <h3 class="box-link"><a href="tel:+917079203070">+91-<script type="text/javascript"> document.write(number1) </script></a></h3>
             <a href="contact.html" class="th-btn style2">Get a Quote<i
                     class="far fa-arrow-right ms-2"></i></a>
         </div>

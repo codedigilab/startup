@@ -302,39 +302,39 @@ const expertteam  = [
     {
         image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
         title: 'Priya',
-        whatsapp:'+917361040504',
+        whatsapp:'+917079203070',
         link:'#',
     },
     {
         image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
         title: 'Priya',
-        whatsapp:'+917361040504',
+        whatsapp:'+917079203070',
         link:'#',
     },
     {
         image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
         title: 'Priya',
-        whatsapp:'+917361040504',
-        link:'#',
-        
-    },
-    {
-        image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
-        title: 'Priya',
-        whatsapp:'+917361040504',
-        link:'#',
-    },
-    {
-        image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
-        title: 'Priya',
-        whatsapp:'+917361040504',
+        whatsapp:'+917079203070',
         link:'#',
         
     },
     {
         image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
         title: 'Priya',
-        whatsapp:'+917361040504',
+        whatsapp:'+917079203070',
+        link:'#',
+    },
+    {
+        image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
+        title: 'Priya',
+        whatsapp:'+917079203070',
+        link:'#',
+        
+    },
+    {
+        image:'https://img.freepik.com/premium-photo/indian-students-isolated-white-background_988871-5.jpg',
+        title: 'Priya',
+        whatsapp:'+917079203070',
         link:'#',
     },
     
