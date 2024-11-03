@@ -10,7 +10,7 @@ document.write(`
             <div class="contact-area area-shape1">
                 <div class="row">
                     
-                    <div class="col-xl-12 text-center text-xl-start">
+                    <div class="mt-5 col-xl-12 text-center text-xl-start">
                         <div class="ps-xxl-4 ms-xl-3">
                            
                             <form action="" onsubmit=" return sender()" class="contact-form2 ajax-contact">
