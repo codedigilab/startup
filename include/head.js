@@ -60,8 +60,8 @@ document.write(`
 <script type="text/javascript">
     var name = 'CODE DIGI LAB';
     var email = 'c4codedigilab@gmail.com';
-    var number1 = '7361040504';
-    var number2 = '7361040504';
+    var number1 = '7079203070';
+    var number2 = '7079203070';
     var address = 'Darbhanga Bhairopatti';
     var name1 = '';
 
